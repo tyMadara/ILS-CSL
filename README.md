@@ -36,6 +36,7 @@ Follow these steps to install and set up the necessary environments for running 
 
 Here's an explanation of key directories and files in this repository:
 
+- `suppl/`: Supplementary results of the experiments in the paper.
 - `BN-structure/`: Contains the true Bayesian networks used in the experiments.
 - `data/`: Holds the utilized data in txt and csv formats, along with the score files, note that due to the limitation of upload size, we only keep data of Asia and Child for test.
   For other datasets, you can access the data provided in an open-source repository in https://github.com/andrewli77/MINOBS-anc/tree/master/data/csv, and use `calculate_score.py` to generate the local scores.
