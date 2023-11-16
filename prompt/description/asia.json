@@ -1,0 +1,10 @@
+{
+    "visit_to_asia": "This variable indicates whether the person has visited Asia or not in 1980s, where is a large portion of the tuberculosis cases. It is a discrete variable with two possible values: yes (the person has visited Asia) or no (the person has not visited Asia).",
+    "tuberculosis": "This variable indicates whether the person has tuberculosis or not. It is a discrete variable with two possible values: yes (the person has tuberculosis) or no (the person does not have tuberculosis).",
+    "smoking": "This variable indicates whether the person is a smoker or not. It is a discrete variable with two possible values: yes (the person is a smoker) or no (the person is not a smoker).",
+    "lung_cancer": "This variable indicates whether the person has lung cancer or not. It is a discrete variable with two possible values: yes (the person has lung cancer) or no (the person does not have lung cancer).",
+    "bronchitis": "This variable indicates whether the person has bronchitis or not. It is a discrete variable with two possible values: yes (the person has bronchitis) or no (the person does not have bronchitis).",
+    "either_turb_or_lung_cancer": "This variable indicates whether the person has either tuberculosis or lung cancer or not. It is a discrete variable with two possible values: yes (the person has either tuberculosis or lung cancer) or no (the person does not have either tuberculosis or lung cancer).",
+    "positive_xray": "This variable indicates whether the person has a positive X-ray result or not. It is a discrete variable with two possible values: yes (the person has a positive X-ray result) or no (the person does not have a positive X-ray result).",
+    "dyspnoea": "This variable indicates whether the person is experiencing shortness of breath (dyspnoea) or not. It is a discrete variable with two possible values: yes (the person is experiencing dyspnoea) or no (the person is not experiencing dyspnoea)."
+}

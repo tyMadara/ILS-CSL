@@ -1,0 +1,7 @@
+{
+    "Pollution": "This variable represents the level of air pollution in a certain area. It is a discrete variable with two possible values:\nlow: Indicates a low level of air pollution.\nhigh: Indicates a high level of air pollution.",
+    "Smoker": "This variable represents whether an individual is a smoker or not. It is a discrete variable with two possible values:\nTrue: Indicates that the individual is a smoker.\nFalse: Indicates that the individual is not a smoker.",
+    "Cancer": "This variable represents whether an individual has been diagnosed with cancer or not. It is a discrete variable with two possible values:\nTrue: Indicates that the individual has cancer.\nFalse: Indicates that the individual does not have cancer.",
+    "Xray": "This variable represents the result of an X-ray examination for an individual. It is a discrete variable with two possible values:\npositive: Indicates that the X-ray examination showed signs of cancer.\nnegative: Indicates that the X-ray examination did not show signs of cancer.",
+    "Dyspnoea": "This variable represents whether an individual is experiencing dyspnea or not. Dyspnea is a medical term for shortness of breath or difficulty in breathing. It is a discrete variable with two possible values:\nTrue: Indicates that the individual is experiencing dyspnea.\nFalse: Indicates that the individual is not experiencing dyspnea."
+}

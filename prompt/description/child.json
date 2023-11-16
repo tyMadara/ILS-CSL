@@ -1,0 +1,22 @@
+{
+    "BirthAsphyxia": "This variable indicates whether the newborn experienced birth asphyxia or not, which is already known.",
+    "HypDistrib": "This variable represents the distribution of blood flow in the body.\nEqual: Blood flow is evenly distributed throughout the body.\nUnequal: Blood flow is unevenly distributed in the body.",
+    "HypoxiaInO2": "This variable indicates the severity of hypoxia (low oxygen levels) in the body.\nMild: Mild level of hypoxia.\nModerate: Moderate level of hypoxia.\nSevere: Severe level of hypoxia.",
+    "CO2": "This variable represents the carbon dioxide levels in the body.\nNormal: Normal CO2 levels.\nLow: Low CO2 levels.\nHigh: High CO2 levels.",
+    "ChestXray": "This variable describes the appearance of the chest X-ray findings.\nNormal: Normal chest X-ray.\nOligaemic: Oligaemic chest X-ray indicating reduced blood flow.\nPlethoric: Plethoric chest X-ray indicating increased blood flow.\nGrd_Glass: Ground-glass opacity in the chest X-ray.\nAsy/Patch: Asymmetric or patchy appearance in the chest X-ray.",
+    "Grunting": "This variable indicates the presence of grunting in the newborn.\nyes: The newborn is grunting.\nno: The newborn is not grunting.",
+    "LVHreport": "This variable represents the report of left ventricular hypertrophy (LVH), only directly dependent on the LVH variable.",
+    "LowerBodyO2": "This variable indicates the oxygen saturation levels in the lower body.\n<5: Oxygen saturation levels below 5%.\n5-12: Oxygen saturation levels between 5% and 12%.\n12+: Oxygen saturation levels above 12%.",
+    "RUQO2": "This variable indicates the oxygen saturation levels in the right upper quadrant of the body.\n<5: Oxygen saturation levels below 5%.\n5-12: Oxygen saturation levels between 5% and 12%.\n12+: Oxygen saturation levels above 12%.",
+    "CO2Report": "This variable represents the report of CO2 levels, only directly dependent on the CO2 variable.",
+    "XrayReport": "This variable describes the appearance of the chest X-ray findings in the medical report.\nNormal: Normal chest X-ray in the medical report, only directly dependent on the Chest Xray appearance.\nOligaemic: Oligaemic chest X-ray in the medical report.\nPlethoric: Plethoric chest X-ray in the medical report.\nGrd_Glass: Ground-glass opacity in the chest X-ray in the medical report.\nAsy/Patchy: Asymmetric or patchy appearance in the chest X-ray in the medical report.",
+    "Disease": "This variable represents the type of disease the newborn is diagnosed with.\nPFC: Persistent fetal circulation.\nTGA: Transposition of the great arteries.\nFallot: Tetralogy of Fallot.\nPAIVS: Pulmonary atresia with intact ventricular septum.\nTAPVD: Total anomalous pulmonary venous drainage.\nLung: Lung disease.",
+    "GruntingReport": "This variable indicates the report of presence of grunting, only directly dependent on the Grunting variable.",
+    "Age": "This variable represents the age of the newborn to be inferred from diagnose.",
+    "LVH": "This variable indicates the presence of left ventricular hypertrophy (LVH) in the newborn.\nyes: LVH is present.\nno: LVH is not present.",
+    "DuctFlow": "This variable represents the direction of blood flow in the ductus arteriosus.\nLt_to_Rt: Blood flow from left to right.\nNone: No blood flow inthe ductus arteriosus.\nRt_to_Lt: Blood flow from right to left.",
+    "CardiacMixing": "This variable describes the degree of mixing between oxygenated and deoxygenated blood in the heart.\nNone: No mixing of blood.\nMild: Mild mixing of blood.\nComplete: Complete mixing of blood.\nTransp.: Mixing in transposed circulation.",
+    "LungParench": "This variable represents the appearance of the lung parenchyma.\nNormal: Normal lung parenchyma.\nCongested: Congested lung parenchyma.\nAbnormal: Abnormal lung parenchyma.",
+    "LungFlow": "This variable indicates the blood flow in the lungs.\nNormal: Normal blood flow in the lungs.\nLow: Low blood flow in the lungs.\nHigh: High blood flow in the lungs.",
+    "Sick": "This variable indicates whether the newborn is sick or not.\nyes: The newborn is sick.\nno: The newborn is not sick." 
+}

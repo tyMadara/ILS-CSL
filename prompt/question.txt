@@ -1,0 +1,8 @@
+Which cause-and-effect relationship is more likely for following causal statements V1->V2?
+A. changing V1 causes a change in V2.
+B. changing V2 causes a change in V1.
+C. changes in V1 and in V2 are not correlated.
+D. uncertain.
+Let’s work this out in a step by step way to be sure that we have the right answer.
+Then provide your final answer within the tags <Answer>A/B/C/D</Answer>.
+Analyze the statement:

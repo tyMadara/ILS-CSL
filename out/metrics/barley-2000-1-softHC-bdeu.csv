@@ -1,0 +1,3 @@
+extra,missing,reverse,fdr,tpr,fpr,shd,nnz,precision,recall,F1,gscore,iter_num,time,exist_mode
+13,42,11,0.4364,0.369,0.023,66,55,0.5636,0.369,0.446,0.0833,1,6.559,edge
+12,42,9,0.3889,0.3929,0.0201,63,54,0.6111,0.3929,0.4783,0.1429,2,6.6313,edge

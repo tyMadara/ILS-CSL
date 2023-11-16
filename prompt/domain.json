@@ -1,0 +1,10 @@
+{
+    "asia": "assessing the impact of tuberculosis, lung cancer or bronchitis on the shortness-of-breath (dyspnoea).",
+    "water": "wastewater treatment control systems, with observations in four time steps (12:00, 12:15, 12:30, 12:45).",
+    "mildew": "the study of winter wheat mildew control, where the observed variables are in different stages.",
+    "insurance": "estimating the expected claim costs for a car insurance policyholder.",
+    "child": "newborn diseases.",
+    "barley": "designing decision support systems for production of beer from Danish malting barley grown without the use of pesticides.",
+    "alarm": "Diagnostic application. Three types of variables are presented in a causal network. Diagnose variables and other qualitative information are at the top level of the network. These variables have no predecessors (no variable causes a diagnose variable). Measurement variables represent any available quantitative information. Intermediate variables are inferred entities that cannot be measured directly.",
+    "cancer": "the effects of smoking on cancer."
+}

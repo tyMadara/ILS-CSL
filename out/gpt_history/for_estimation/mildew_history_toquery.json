@@ -1,0 +1,10 @@
+[
+    {
+        "start": "middel_1",
+        "end": "meldug_2",
+        "answer": "D",
+        "model": "sim-gpt",
+        "input": "You are an expert on the study of winter wheat mildew control.\nYou are investigating the cause-and-effect relationships between the following variables in your filed.\n\nVariables and their meanings are presented as follows.\n\nmiddel_1: middel_1, middel_2, middel_3: These variables represent the average amount of fungicide applied during the three different periods of winter wheat growth. The values are given in liters per hectare (l/ha).\n\nmeldug_2: meldug_1, meldug_2, meldug_3, meldug_4: These variables represent the degree of mildew infestation at the four different stages of winter wheat growth. The values are given as a percentage.\n\nWhich cause-and-effect relationship is more likely for following causal statements V1->V2?\nA. changing V1 causes a change in V2.\nB. changing V2 causes a change in V1.\nC. changes in V1 and in V2 are not correlated.\nD. uncertain.\nLet’s work this out in a step by step way to be sure that we have the right answer.\nThen provide your final answer within the tags <Answer>A/B/C/D</Answer>.\nAnalyze the statement: middel_1 meldug_2",
+        "output": ""
+    }
+]
