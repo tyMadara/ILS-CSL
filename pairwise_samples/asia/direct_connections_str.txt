@@ -1,0 +1,8 @@
+visit_to_asia,tuberculosis
+tuberculosis,either_turb_or_lung_cancer
+smoking,lung_cancer
+smoking,bronchitis
+lung_cancer,either_turb_or_lung_cancer
+bronchitis,dyspnoea
+either_turb_or_lung_cancer,positive_xray
+either_turb_or_lung_cancer,dyspnoea

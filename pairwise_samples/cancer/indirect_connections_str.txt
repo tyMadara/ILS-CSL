@@ -1,0 +1,4 @@
+Pollution,Xray
+Pollution,Dyspnoea
+Smoker,Xray
+Smoker,Dyspnoea
