@@ -17,7 +17,7 @@ Follow these steps to install and set up the necessary environments for running 
 3. **Navigate to the project folder**:
 
    ```bash
-   cd codes+materials
+   cd ./ILS-CSL
    ```
 
 4. **Install the required packages**: Run the installation script with the following command:
