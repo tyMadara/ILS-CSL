@@ -8,5 +8,5 @@ if [ ! -d "BI-CaMML" ]; then
     unzip BI-CaMML-1.4.2.zip
     rm BI-CaMML-1.4.2.zip
 fi
-mkdir BI-CaMML/anc_file BI-CaMML/BN_record BI-CaMML/out_BNs
+mkdir BI-CaMML/anc_file BI-CaMML/BN_record BI-CaMML/out_BNs out/prior-iter
 chmod 775 BI-CaMML/camml.sh
