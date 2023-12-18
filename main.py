@@ -526,17 +526,20 @@ class EdgePrior:
 
 if __name__ == "__main__":
     args = load_config()
-    dataset_list = ["asia", "child"]
-    alg_score_list = [["CaMML", "mml"],  ["HC", "bdeu"], ["softHC", "bdeu"], ["hardMINOBSx", "bdeu"], ["softMINOBSx", "bdeu"],
-                      ["HC", "bic"], ["softHC", "bic"], ["hardMINOBSx", "bic"], ["softMINOBSx", "bic"]]
-    for alg_score in alg_score_list:
-        for dataset in dataset_list:
-            for data_index in [1, 2, 3, 4, 5, 6]:
-                for datasize_index in [0, 1]:  # 0: small, 1: large
-                    args.alg, args.score = alg_score
-                    args.dataset = dataset
-                    args.data_index = data_index
-                    args.datasize_index = datasize_index
-                    icsl = Iteration_CSL(dataset, model=args.model, alg=args.alg, data_index=args.data_index,
+    icsl = Iteration_CSL(args.dataset, model=args.model, alg=args.alg, data_index=args.data_index,
                                          datasize_index=args.datasize_index, score=args.score)
-                    icsl.iter_causal_structure_learning()
+    icsl.iter_causal_structure_learning()
+    # dataset_list = ["asia", "child"]
+    # alg_score_list = [["CaMML", "mml"],  ["HC", "bdeu"], ["softHC", "bdeu"], ["hardMINOBSx", "bdeu"], ["softMINOBSx", "bdeu"],
+    #                   ["HC", "bic"], ["softHC", "bic"], ["hardMINOBSx", "bic"], ["softMINOBSx", "bic"]]
+    # for alg_score in alg_score_list:
+    #     for dataset in dataset_list:
+    #         for data_index in [1, 2, 3, 4, 5, 6]:
+    #             for datasize_index in [0, 1]:  # 0: small, 1: large
+    #                 args.alg, args.score = alg_score
+    #                 args.dataset = dataset
+    #                 args.data_index = data_index
+    #                 args.datasize_index = datasize_index
+    #                 icsl = Iteration_CSL(dataset, model=args.model, alg=args.alg, data_index=args.data_index,
+    #                                      datasize_index=args.datasize_index, score=args.score)
+    #                 icsl.iter_causal_structure_learning()
